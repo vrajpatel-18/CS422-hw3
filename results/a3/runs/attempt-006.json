@@ -1,0 +1,78 @@
+{
+  "requested_algorithm": "dart",
+  "actual_algorithm": null,
+  "sampling_interval_seconds": 0.2,
+  "tcp_info_decoding": {
+    "structure": "Linux UAPI struct tcp_info",
+    "kernel_release": "7.0.0-38-generic",
+    "machine": "aarch64",
+    "byte_order": "little",
+    "alignment": "explicit offsets; =I is uint32, =Q is uint64",
+    "requested_length_bytes": 256,
+    "minimum_length_bytes": 128,
+    "fields": {
+      "snd_mss_bytes": {
+        "offset_bytes": 16,
+        "format": "=I",
+        "unit": "bytes"
+      },
+      "rtt_us": {
+        "offset_bytes": 68,
+        "format": "=I",
+        "unit": "microseconds"
+      },
+      "rttvar_us": {
+        "offset_bytes": 72,
+        "format": "=I",
+        "unit": "microseconds"
+      },
+      "snd_cwnd_segments": {
+        "offset_bytes": 80,
+        "format": "=I",
+        "unit": "segments"
+      },
+      "total_retrans_segments": {
+        "offset_bytes": 100,
+        "format": "=I",
+        "unit": "segments (cumulative)"
+      },
+      "pacing_rate_bytes_per_second": {
+        "offset_bytes": 104,
+        "format": "=Q",
+        "unit": "bytes/second"
+      },
+      "bytes_acked": {
+        "offset_bytes": 120,
+        "format": "=Q",
+        "unit": "bytes (cumulative)"
+      },
+      "min_rtt_us": {
+        "offset_bytes": 148,
+        "format": "=I",
+        "unit": "microseconds (kernel windowed minimum)"
+      },
+      "delivery_rate_bytes_per_second": {
+        "offset_bytes": 160,
+        "format": "=Q",
+        "unit": "bytes/second"
+      }
+    },
+    "goodput_formula": "8 * delta(payload_bytes_acked) / delta(monotonic_seconds)",
+    "loss_proxy": "delta(total_retrans_segments); a retransmission count, not a loss probability",
+    "optional_values": "null if absent; pacing MAX means unlimited; delivery rate 0 means no estimate",
+    "source": "https://github.com/torvalds/linux/blob/v6.8/include/uapi/linux/tcp.h"
+  },
+  "cookie_ack_target": null,
+  "samples": [],
+  "protocol_events": [],
+  "status": "failed",
+  "error": "parameter negotiation: ACCESS_DENIED: server is busy or refused the test",
+  "host": "speedtest.hkg12.hk.leaseweb.net",
+  "port": 5209,
+  "run_id": "0ab8dd88-1166-4cdd-950f-37ebbf61ac0e",
+  "attempt": 6,
+  "attempt_started_utc": "2026-10-20T05:25:05.123867+00:00",
+  "repetition": 1,
+  "order_index": 1,
+  "retry": 1
+}

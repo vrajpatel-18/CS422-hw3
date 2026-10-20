@@ -1,0 +1,127 @@
+Seed: 422; requesting 5 distinct server hostnames; at most 10 destinations tried; algorithms dart, cubic, reno, bbr; 3 repetition(s).
+Attempt 1: speedtest.lax12.us.leaseweb.net:5207 [dart, repetition 1]
+  Completed; data-socket algorithm: dart
+Attempt 2: speedtest.lax12.us.leaseweb.net:5207 [cubic, repetition 1]
+  Completed; data-socket algorithm: cubic
+Attempt 3: speedtest.lax12.us.leaseweb.net:5207 [reno, repetition 1]
+  Completed; data-socket algorithm: reno
+Attempt 4: speedtest.lax12.us.leaseweb.net:5207 [bbr, repetition 1]
+  Completed; data-socket algorithm: bbr
+Attempt 5: speedtest.hkg12.hk.leaseweb.net:5209 [dart, repetition 1]
+  failed: parameter negotiation: ACCESS_DENIED: server is busy or refused the test
+Attempt 6: speedtest.hkg12.hk.leaseweb.net:5209 [dart, repetition 1] (retry 1)
+  failed: parameter negotiation: ACCESS_DENIED: server is busy or refused the test
+Attempt 7: 213.158.175.240:5201 [dart, repetition 1]
+  Completed; data-socket algorithm: dart
+Attempt 8: 213.158.175.240:5201 [cubic, repetition 1]
+  Completed; data-socket algorithm: cubic
+Attempt 9: 213.158.175.240:5201 [reno, repetition 1]
+  Completed; data-socket algorithm: reno
+Attempt 10: 213.158.175.240:5201 [bbr, repetition 1]
+  Completed; data-socket algorithm: bbr
+Attempt 11: speedtest.xmission.com:5205 [dart, repetition 1]
+  Completed; data-socket algorithm: dart
+Attempt 12: speedtest.xmission.com:5205 [cubic, repetition 1]
+  Completed; data-socket algorithm: cubic
+Attempt 13: speedtest.xmission.com:5205 [reno, repetition 1]
+  Completed; data-socket algorithm: reno
+Attempt 14: speedtest.xmission.com:5205 [bbr, repetition 1]
+  Completed; data-socket algorithm: bbr
+Attempt 15: iperf.pendc.com:5202 [dart, repetition 1]
+  Completed; data-socket algorithm: dart
+Attempt 16: iperf.pendc.com:5202 [cubic, repetition 1]
+  Completed; data-socket algorithm: cubic
+Attempt 17: iperf.pendc.com:5202 [reno, repetition 1]
+  Completed; data-socket algorithm: reno
+Attempt 18: iperf.pendc.com:5202 [bbr, repetition 1]
+  Completed; data-socket algorithm: bbr
+Attempt 19: 154.81.51.4:5201 [dart, repetition 1]
+  Completed; data-socket algorithm: dart
+Attempt 20: 154.81.51.4:5201 [cubic, repetition 1]
+  Completed; data-socket algorithm: cubic
+Attempt 21: 154.81.51.4:5201 [reno, repetition 1]
+  Completed; data-socket algorithm: reno
+Attempt 22: 154.81.51.4:5201 [bbr, repetition 1]
+  Completed; data-socket algorithm: bbr
+Attempt 23: speedtest.lax12.us.leaseweb.net:5207 [cubic, repetition 2]
+  Completed; data-socket algorithm: cubic
+Attempt 24: speedtest.lax12.us.leaseweb.net:5207 [reno, repetition 2]
+  Completed; data-socket algorithm: reno
+Attempt 25: speedtest.lax12.us.leaseweb.net:5207 [bbr, repetition 2]
+  Completed; data-socket algorithm: bbr
+Attempt 26: speedtest.lax12.us.leaseweb.net:5207 [dart, repetition 2]
+  Completed; data-socket algorithm: dart
+Attempt 27: 213.158.175.240:5201 [cubic, repetition 2]
+  Completed; data-socket algorithm: cubic
+Attempt 28: 213.158.175.240:5201 [reno, repetition 2]
+  Completed; data-socket algorithm: reno
+Attempt 29: 213.158.175.240:5201 [bbr, repetition 2]
+  Completed; data-socket algorithm: bbr
+Attempt 30: 213.158.175.240:5201 [dart, repetition 2]
+  Completed; data-socket algorithm: dart
+Attempt 31: speedtest.xmission.com:5205 [cubic, repetition 2]
+  Completed; data-socket algorithm: cubic
+Attempt 32: speedtest.xmission.com:5205 [reno, repetition 2]
+  Completed; data-socket algorithm: reno
+Attempt 33: speedtest.xmission.com:5205 [bbr, repetition 2]
+  Completed; data-socket algorithm: bbr
+Attempt 34: speedtest.xmission.com:5205 [dart, repetition 2]
+  Completed; data-socket algorithm: dart
+Attempt 35: iperf.pendc.com:5202 [cubic, repetition 2]
+  Completed; data-socket algorithm: cubic
+Attempt 36: iperf.pendc.com:5202 [reno, repetition 2]
+  Completed; data-socket algorithm: reno
+Attempt 37: iperf.pendc.com:5202 [bbr, repetition 2]
+  Completed; data-socket algorithm: bbr
+Attempt 38: iperf.pendc.com:5202 [dart, repetition 2]
+  Completed; data-socket algorithm: dart
+Attempt 39: 154.81.51.4:5201 [cubic, repetition 2]
+  Completed; data-socket algorithm: cubic
+Attempt 40: 154.81.51.4:5201 [reno, repetition 2]
+  Completed; data-socket algorithm: reno
+Attempt 41: 154.81.51.4:5201 [bbr, repetition 2]
+  Completed; data-socket algorithm: bbr
+Attempt 42: 154.81.51.4:5201 [dart, repetition 2]
+  Completed; data-socket algorithm: dart
+Attempt 43: speedtest.lax12.us.leaseweb.net:5207 [reno, repetition 3]
+  Completed; data-socket algorithm: reno
+Attempt 44: speedtest.lax12.us.leaseweb.net:5207 [bbr, repetition 3]
+  Completed; data-socket algorithm: bbr
+Attempt 45: speedtest.lax12.us.leaseweb.net:5207 [dart, repetition 3]
+  Completed; data-socket algorithm: dart
+Attempt 46: speedtest.lax12.us.leaseweb.net:5207 [cubic, repetition 3]
+  Completed; data-socket algorithm: cubic
+Attempt 47: 213.158.175.240:5201 [reno, repetition 3]
+  Completed; data-socket algorithm: reno
+Attempt 48: 213.158.175.240:5201 [bbr, repetition 3]
+  Completed; data-socket algorithm: bbr
+Attempt 49: 213.158.175.240:5201 [dart, repetition 3]
+  Completed; data-socket algorithm: dart
+Attempt 50: 213.158.175.240:5201 [cubic, repetition 3]
+  Completed; data-socket algorithm: cubic
+Attempt 51: speedtest.xmission.com:5205 [reno, repetition 3]
+  Completed; data-socket algorithm: reno
+Attempt 52: speedtest.xmission.com:5205 [bbr, repetition 3]
+  Completed; data-socket algorithm: bbr
+Attempt 53: speedtest.xmission.com:5205 [dart, repetition 3]
+  Completed; data-socket algorithm: dart
+Attempt 54: speedtest.xmission.com:5205 [cubic, repetition 3]
+  Completed; data-socket algorithm: cubic
+Attempt 55: iperf.pendc.com:5202 [reno, repetition 3]
+  Completed; data-socket algorithm: reno
+Attempt 56: iperf.pendc.com:5202 [bbr, repetition 3]
+  Completed; data-socket algorithm: bbr
+Attempt 57: iperf.pendc.com:5202 [dart, repetition 3]
+  Completed; data-socket algorithm: dart
+Attempt 58: iperf.pendc.com:5202 [cubic, repetition 3]
+  Completed; data-socket algorithm: cubic
+Attempt 59: 154.81.51.4:5201 [reno, repetition 3]
+  Completed; data-socket algorithm: reno
+Attempt 60: 154.81.51.4:5201 [bbr, repetition 3]
+  Completed; data-socket algorithm: bbr
+Attempt 61: 154.81.51.4:5201 [dart, repetition 3]
+  Completed; data-socket algorithm: dart
+Attempt 62: 154.81.51.4:5201 [cubic, repetition 3]
+  Completed; data-socket algorithm: cubic
+Q3 representative destination: speedtest.lax12.us.leaseweb.net:5207 (12 runs)
+Completed 5/5 destinations; shortfall: 0; failed later runs: 0. Results: results/a3

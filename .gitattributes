@@ -1,0 +1,2 @@
+# Preserve the exact bytes of measurement logs and input snapshots.
+*.csv -text
