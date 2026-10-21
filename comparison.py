@@ -157,6 +157,13 @@ def repetition_line(run, first):
             "label": f"repetition {run.get('repetition', 1)}"}
 
 
+def save_report_figure(fig, directory, name):
+    """Keep the PDF and the PNG embedded in REPORT.md from the same figure."""
+    fig.savefig(directory / f"{name}.pdf")
+    (directory / "png").mkdir(exist_ok=True)
+    fig.savefig(directory / "png" / f"{name}-1.png", dpi=160)
+
+
 def plot_goodput_by_destination(directory, completed, manifest, algorithms):
     """Q1(c) for Q3 runs: one panel per destination, one curve per algorithm and repetition."""
     destinations = defaultdict(list)
@@ -241,7 +248,7 @@ def plot_timeseries(directory, runs, algorithms, destination):
     fig.text(0.5, 0.01, "cwnd/RTT are endpoint snapshots; goodput/loss cover the preceding interval.",
              ha="center", fontsize=9)
     fig.tight_layout(rect=(0, 0.03, 1, 0.93))
-    fig.savefig(directory / "q3-timeseries.pdf")
+    save_report_figure(fig, directory, "q3-timeseries")
     plt.close(fig)
 
 
@@ -275,7 +282,7 @@ def plot_scatter(directory, runs, algorithms, destination):
     fig.suptitle(f"A3: TCP metrics and goodput by algorithm, {destination[0]}:{destination[1]}\n"
                  "All repetitions pooled; each column shares axes. Correlation does not establish causation.")
     fig.tight_layout(rect=(0, 0, 1, 0.92))
-    fig.savefig(directory / "q3-scatter.pdf")
+    save_report_figure(fig, directory, "q3-scatter")
     plt.close(fig)
 
 
@@ -329,7 +336,7 @@ def plot_compare(directory, metrics, algorithms):
     fig.text(0.5, 0.01, "BDP estimate = max kernel delivery rate × min RTT. Public paths change between runs.",
              ha="center", fontsize=9)
     fig.tight_layout(rect=(0, 0.03, 1, 0.95))
-    fig.savefig(directory / "q3-compare.pdf")
+    save_report_figure(fig, directory, "q3-compare")
     plt.close(fig)
 
 

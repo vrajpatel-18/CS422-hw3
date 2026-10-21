@@ -1,0 +1,4 @@
+# Additional dependencies for tools/build_report.py (not needed for experiments).
+-r requirements.txt
+Markdown>=3.6,<4
+reportlab>=4,<6
