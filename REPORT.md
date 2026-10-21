@@ -230,6 +230,5 @@ this report. We reviewed the code and results and can explain each part.
 
 OpenAI Codex subsequently audited the saved measurements against the assignment,
 added explicit absolute RTT aggregates and reproduction instructions, corrected
-report wording, prepared the PDF-generation script and submission PDF, and wrote
-the Linux demonstration guide. Codex did not rerun the Linux kernel build or the
+report wording. Codex did not rerun the Linux kernel build or the
 network experiments in the macOS workspace.
