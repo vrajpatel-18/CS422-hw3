@@ -5,6 +5,19 @@ Run these commands inside your Ubuntu VM, from the project root (for example,
 The saved experiment used kernel `7.0.0-38-generic` on arm64. This guide does not
 assume the Mac can compile or load the Linux eBPF program.
 
+## Successful rehearsal
+
+On October 21, 2026, the live demonstration completed successfully on Ubuntu
+24.04 in UTM on an Apple Silicon Mac, using kernel `7.0.0-31-generic`.
+DART compiled and loaded, and the loopback test (`127.0.0.1:55201`) completed
+eight successful runs: two each for DART, CUBIC, Reno, and BBR. Validation
+confirmed that every run used the requested algorithm, and all three plots
+(time series, scatter, and comparison) were generated and opened.
+
+This rehearsal verifies functionality in the demonstration environment. The
+original public-path evaluation remains in `results/a3`, with its experiment
+environment documented separately in `REPORT.md`.
+
 ## 1. Prepare before the session
 
 Copy the updated project into the VM, including `dart/`, the Python source,
